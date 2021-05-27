@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario Login</title>
+    <link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/style_dia.css" id="theme" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/sesion.js"></script>
+	
+  </head>
+  
+  <body onload="controlar()">
+ <div>
+  <button onclick="switchSheet()">Cambiar modo noche</button>
+</div>
+  
+    <section class="form-login">
+	
+      <h5>Formulario Login</h5>
+	  
+	  <form method="post" id="formulario_login" name="form_login" onSubmit="return loguearse()">
+	  
+		  <input class="controls" type="text" name="user" value="" placeholder="Usuario">
+		  <input class="controls" type="password" name="password" value="" placeholder="Contraseña">
+		  
+   	      <input type="submit" class="buttons" value="Login">
+  	  </form>
+
+	  <button class="buttons" id="boton_desloguearse" onclick="desloguearse()">Desloguearse</button>
+	  
+    </section>
+	
+	<p>Mensaje informativo:</p>
+	<div id="mensaje_informativo"></div>
+
+
+	<script src="js/sesion.js"></script>
+  </body>
+</html>

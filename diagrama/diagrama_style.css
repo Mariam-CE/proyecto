@@ -1,0 +1,26 @@
+body {
+  background: #000;
+}
+
+.menu {
+  width: 100%;
+  max-width: 100%;
+  background: #000;
+  overflow: hidden;
+  margin: 25px auto;
+  position: relative;
+  height: 50px;
+
+}
+
+
+
+.container {
+  width: 100%;
+  max-width: 600px; 
+  background: #000 ;
+  overflow: hidden;
+  margin: 25px auto;
+  position: relative;
+  height: 900px;
+}

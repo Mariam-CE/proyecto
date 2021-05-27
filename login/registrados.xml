@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datosweb>
+	<registrados>
+		<user>
+			<nombrecompleto>Alberto Salas</nombrecompleto>
+			<name>USR1</name>
+			<password>password1</password>	
+		</user>
+				
+		<user>
+			<nombrecompleto>Antonio Gutierrez</nombrecompleto>
+			<name>USR2</name>
+			<password>password2</password>	
+		</user>
+		
+		<user>
+			<nombrecompleto>Toñi Salazar</nombrecompleto>
+			<name>USR3</name>
+			<password>password3</password>			
+		</user>
+		
+		<user>
+			<nombrecompleto>Luis Salgado</nombrecompleto>
+			<name>USR4</name>
+			<password>password4</password>			
+		</user>
+		
+		<user>
+			<nombrecompleto>Juan Luis Calvo</nombrecompleto>
+			<name>CANDIDO</name>
+			<password>VIDAL</password>			
+		</user>			
+	</registrados>
+</datosweb>	
