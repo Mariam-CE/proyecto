@@ -135,7 +135,7 @@ function validarXML() {
 			});
 			
 			if (login_exito == true) {
-				window.open("file:///D:/LENGUAJE%20DE%20MARCAS/PROYECTO%203%20TRIMESTRE/PROYECTO3TRIMESTRE/colores.html");
+				window.open("colores.html");
 
 				alert('Esta redirigiendo');
 				
