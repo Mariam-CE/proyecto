@@ -92,8 +92,8 @@ function validarXML() {
 	alert('pasa por validarxml 1');
 	
 	// lee desde aquí.
-	usrIntentando = sessionStorage.getItem("usuarioIntentando");
-	claveIntentando = sessionStorage.getItem("claveIntentando");
+	//usrIntentando = sessionStorage.getItem("usuarioIntentando");
+	//claveIntentando = sessionStorage.getItem("claveIntentando");
 	
 	sessionStorage.removeItem("usuarioIntentando");
 	sessionStorage.removeItem("claveIntentando");
@@ -104,10 +104,10 @@ function validarXML() {
 	// https://www.learningjquery.com/2012/04/read-and-process-xml-using-jquery-ajax
 	$.ajax({
 		type: "GET",
-		url: "proyecto/login/js/usuariosregistrados.xml",
+		url: "https://raw.githubusercontent.com/Mariam-CE/proyecto/master/login/usuariosregistrados.xml",
 		dataType: "xml",
 		success: function(xml){
-		alert("valida xml4");	
+			
 			
 			var login_exito = false;
 			
