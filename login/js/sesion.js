@@ -114,8 +114,8 @@ function validarXML() {
 			  var name = $(this).find('name').text();
 			  var password = $(this).find('password').text();
 	
-			  /* alert('usrIntentando es ' + usrIntentando); */
-			  /* alert('claveIntentando es ' + claveIntentando); */
+			   alert('usrIntentando es ' + usrIntentando); */
+			   alert('claveIntentando es ' + claveIntentando); */
 	
 			  if ((name == usrIntentando) && (password == claveIntentando)) {
 				// almacena que el usuario ya se ha logueado porque ha introducido
@@ -130,12 +130,12 @@ function validarXML() {
 			  }
 			  
 	
-			  /* alert('name es ' + name); */
-			  /* alert('password es ' + password); */
+			   alert('name es ' + name); */
+			   alert('password es ' + password); */
 			});
 			
 			if (login_exito == true) {
-				window.open("file:///D:/LENGUAJE%20DE%20MARCAS/PROYECTO%203%20TRIMESTRE/PROYECTO3TRIMESTRE/colores.html");
+				window.open("colores.html");
 
 				alert('Esta redirigiendo');
 				
