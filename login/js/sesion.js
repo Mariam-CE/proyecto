@@ -104,7 +104,7 @@ function validarXML() {
 	// https://www.learningjquery.com/2012/04/read-and-process-xml-using-jquery-ajax
 	$.ajax({
 		type: "GET",
-		url: "https://raw.githubusercontent.com/Mariam-CE/proyecto/master/login/usuariosregistrados.xml",
+		url: "https://raw.githubusercontent.com/Mariam-CE/proyecto/master/login/js/usuariosregistrados.xml",
 		dataType: "xml",
 		success: function(xml){
 			
@@ -135,7 +135,7 @@ function validarXML() {
 			});
 			
 			if (login_exito == true) {
-				window.open("colores.html");
+				window.open("file:///D:/LENGUAJE%20DE%20MARCAS/PROYECTO%203%20TRIMESTRE/PROYECTO3TRIMESTRE/colores.html");
 
 				alert('Esta redirigiendo');
 				
@@ -153,6 +153,7 @@ function validarXML() {
 	
 	alert('pasa por validarxml 3');		
 }
+
 
 function switchSheet() {
   let theme = document.getElementById("theme");
