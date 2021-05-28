@@ -104,7 +104,7 @@ function validarXML() {
 	// https://www.learningjquery.com/2012/04/read-and-process-xml-using-jquery-ajax
 	$.ajax({
 		type: "GET",
-		url: "https://raw.githubusercontent.com/Mariam-CE/proyecto/master/login/js/usuariosregistrados.xml",
+		url: "proyecto/login/js/usuariosregistrados.xml",
 		dataType: "xml",
 		success: function(xml){
 		alert("valida xml4");	
