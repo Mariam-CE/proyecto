@@ -104,7 +104,8 @@ function validarXML() {
 	// https://www.learningjquery.com/2012/04/read-and-process-xml-using-jquery-ajax
 	$.ajax({
 		type: "GET",
-		url: "/proyecto/master/login/usuariosregistrados.xml",
+		url: "https://raw.githubusercontent.com/Mariam-CE/proyecto/master/login/usuariosregistrados.xml
+",
 		dataType: "xml",
 		success: function(xml){
 			
@@ -136,7 +137,7 @@ function validarXML() {
 			
 			if (login_exito == true) {
 				alert("pasa por abrir la url")
-				window.open("/proyecto/colores.html", "Colores", "width=300, height=200");
+				window.open("../colores.html", "Colores", "width=300, height=200");
 
 				alert('Esta redirigiendo');
 				
