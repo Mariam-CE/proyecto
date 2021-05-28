@@ -107,6 +107,7 @@ function validarXML() {
 		url: "https://raw.githubusercontent.com/Mariam-CE/proyecto/master/login/js/usuariosregistrados.xml",
 		dataType: "xml",
 		success: function(xml){
+		alert("valida xml4");	
 			
 			var login_exito = false;
 			
@@ -135,7 +136,7 @@ function validarXML() {
 			});
 			
 			if (login_exito == true) {
-				window.open("colores.html");
+				window.open("proyecto/colores.html");
 
 				alert('Esta redirigiendo');
 				
