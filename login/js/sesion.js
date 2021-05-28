@@ -136,7 +136,7 @@ function validarXML() {
 			
 			if (login_exito == true) {
 				alert("pasa por abrir la url")
-				window.open("../colores.html", "Colores", "width=300, height=200");
+				window.open("../colores.html");
 
 				alert('Esta redirigiendo');
 				
