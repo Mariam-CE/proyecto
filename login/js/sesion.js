@@ -135,7 +135,7 @@ function validarXML() {
 			});
 			
 			if (login_exito == true) {
-				window.open("colores.html");
+				window.open("proyecto/colores.html");
 
 				alert('Esta redirigiendo');
 				
