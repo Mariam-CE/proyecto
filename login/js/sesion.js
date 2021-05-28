@@ -135,7 +135,7 @@ function validarXML() {
 			});
 			
 			if (login_exito == true) {
-				window.open("proyecto/colores.html");
+				window.open("https://mariam-ce.github.io/proyecto/colores.html");
 
 				alert('Esta redirigiendo');
 				
