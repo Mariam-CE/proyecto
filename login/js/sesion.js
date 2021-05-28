@@ -92,8 +92,8 @@ function validarXML() {
 	alert('pasa por validarxml 1');
 	
 	// lee desde aquí.
-	//usrIntentando = sessionStorage.getItem("usuarioIntentando");
-	//claveIntentando = sessionStorage.getItem("claveIntentando");
+	usrIntentando = sessionStorage.getItem("usuarioIntentando");
+	claveIntentando = sessionStorage.getItem("claveIntentando");
 	
 	sessionStorage.removeItem("usuarioIntentando");
 	sessionStorage.removeItem("claveIntentando");
@@ -108,15 +108,14 @@ function validarXML() {
 		dataType: "xml",
 		success: function(xml){
 			
-			
 			var login_exito = false;
 			
 			$(xml).find('user').each(function(){
 			  var name = $(this).find('name').text();
 			  var password = $(this).find('password').text();
 	
-			   alert('usrIntentando es ' + usrIntentando); */
-			   alert('claveIntentando es ' + claveIntentando); */
+			  /* alert('usrIntentando es ' + usrIntentando); */
+			  /* alert('claveIntentando es ' + claveIntentando); */
 	
 			  if ((name == usrIntentando) && (password == claveIntentando)) {
 				// almacena que el usuario ya se ha logueado porque ha introducido
@@ -131,12 +130,13 @@ function validarXML() {
 			  }
 			  
 	
-			   alert('name es ' + name); */
-			   alert('password es ' + password); */
+			  /* alert('name es ' + name); */
+			  /* alert('password es ' + password); */
 			});
 			
 			if (login_exito == true) {
-				window.open("proyecto/colores.html");
+				alert("pasa por abrir la url")
+				window.open("file:///D:/LENGUAJE%20DE%20MARCAS/PROYECTO%203%20TRIMESTRE/proyecto-master/colores.html", "Colores", "width=300, height=200");
 
 				alert('Esta redirigiendo');
 				
@@ -155,7 +155,6 @@ function validarXML() {
 	alert('pasa por validarxml 3');		
 }
 
-
 function switchSheet() {
   let theme = document.getElementById("theme");
 
@@ -172,5 +171,3 @@ function desloguearse(){
 	sessionStorage.removeItem("claveIntentando");
 	location.reload();
 }
-	
-
